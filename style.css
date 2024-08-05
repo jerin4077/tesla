@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color:#feffff;
+    padding: 10px;
+}
+header .container{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 10px;
+}
+.logo{
+    height: 30px;
+    width: 150px;
+    /* margin-left: 50px; */
+}
+.user{
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    align-items: end;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    margin-right:70px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+
+}
+.banner-container {
+    width: 100%;
+    height: 485px;
+    background: url("./images/teslam3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.top-section{
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+
+}
+.top-section h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    vertical-align: top;
+    display: inline;
+}
+.top-section h3{
+    font-size: 30px;
+    margin-top: -5px;
+}
+.top-section p{
+    font-size: 15px;
+    margin-top: -25px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.butcontainer {
+    margin-top: 300px; 
+    text-align: center; 
+}
+
+.button1 { 
+    background-color: #047baa;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 90px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button2{
+
+    background-color: #fcfcfc; 
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 90px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-container1 {
+    width: 100%;
+    height: 550px;
+    background: url("./images/teslamy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.butcontainer1 {
+    margin-top: 380px; 
+    text-align: center; 
+}
+.banner-container2 {
+    width: 100%;
+    height: 570px;
+    background: url("./images/teslamx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-container3 {
+    width: 100%;
+    height: 550px;
+    background: url("./images/teslams.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.butcontainer2 {
+    margin-top: 350px; 
+    text-align: center; 
+}
+.banner-container4 {
+    width: 100%;
+    height: 550px;
+    background: url("./images/cybertruck.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.button3 { 
+    background-color: #474e51;
+    border: none;
+    color: rgb(235, 221, 221);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 70px;
+    /* border-radius: 12px; */
+    font-family:sans-serif;
+}
+.footer-container{
+    width: 100%;
+    height: 400px;
+    background:url("./images/teslafooter.jpg");
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    letter-spacing: 1px;
+
+}
+.foot{
+    display: flex;
+    text-decoration: none;
+    color: #fcfcfc;
+    justify-content: space-around;
+}
